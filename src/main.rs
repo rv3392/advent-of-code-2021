@@ -2,6 +2,7 @@ mod utils;
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 fn main() {
     let _day_1a_ans = day1::day_1a();
@@ -15,4 +16,8 @@ fn main() {
     let _day_3a_ans = day3::day_3a();
     let _day_3b_ans = day3::day_3b();
     println!("Day 3 a:{} b:{}", _day_3a_ans.to_string(), _day_3b_ans.to_string());
+
+    let _day_4a_ans = day4::play_bingo();
+    let _day_4b_ans = day4::play_bingo_last_win();
+    println!("Day 4 a:{} b:{}", _day_4a_ans.to_string(), _day_4b_ans.to_string());
 }
