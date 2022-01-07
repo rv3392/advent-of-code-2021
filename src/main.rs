@@ -25,7 +25,7 @@ fn main() {
 
     let _day_5a_ans = day5::find_overlapping_vents(false);
     let _day_5b_ans = day5::find_overlapping_vents(true);
-    println!("Day 4 a:{} b:{}", _day_5a_ans.to_string(), _day_5b_ans.to_string());
+    println!("Day 5 a:{} b:{}", _day_5a_ans.to_string(), _day_5b_ans.to_string());
 
     let _day_6a_ans = day6::calculate_lanternfish_population(80);
     let _day_6b_ans = day6::calculate_lanternfish_population(256);

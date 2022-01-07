@@ -18,8 +18,6 @@ pub fn day_3a() -> u32 {
         }
     }
 
-    println!("{}", zero_occurrences[1]);
-
     let mut gamma: u32 = 0b00000;
     let mut epsilon: u32 = 0b0;
 
@@ -63,7 +61,6 @@ fn rating_calculator(input: String, bit_criteria: fn(u32, &u32) -> u8) -> u32 {
         lines = lines.iter().cloned().filter(|x| x.as_bytes()[i] as char == bit).collect::<Vec<&str>>();
         num_lines = lines.len();
         zero_occurrences = 0;
-        println!("{}", num_lines);
     }
 
     let binary_rating = lines[0].as_bytes();

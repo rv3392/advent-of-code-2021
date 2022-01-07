@@ -54,8 +54,6 @@ fn get_floor_size(lines: &Vec<String>) -> (usize, usize) {
             max_height = if y1 > y2 { y1 } else { y2 };
         }
     }
-    println!("{}", max_width + 1);
-    println!("{}", max_height + 1);
     ((max_width + 1) as usize, (max_height + 1) as usize)
 }
 
